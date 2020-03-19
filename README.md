@@ -1,21 +1,21 @@
 [SOFTSPIDERS](https://github.com/softspiders/softspiders)
 
-# cra-ts-starter
+# cra-ie11-ts-starter
 
-Simple starter using typescript.
+Simple starter using typescript and with Internet Explorer 11 support.
 
 ## Feature tags
 - cra
+ -ie11
 - typescript, ts
 - starter
 
 ## Direct ancestors
 
-- [*cra-starter*](https://github.com/softspiders/cra-starter)
+- [*cra-ts-starter*](https://github.com/softspiders/cra-ts-starter)
+- [*cra-ie11-starter*](https://github.com/softspiders/cra-ie11-starter)
 
 ## Direct descendants
-
-- [*cra-ie11-ts-starter*](https://github.com/softspiders/cra-ie11-ts-starter)
 
 ## Requirements
 
