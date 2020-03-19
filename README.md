@@ -9,6 +9,7 @@ Simple starter using typescript and with Internet Explorer 11 support.
  -ie11
 - typescript, ts
 - starter
+- template
 
 ## Direct ancestors
 
