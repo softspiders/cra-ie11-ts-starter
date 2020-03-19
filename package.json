@@ -10,6 +10,7 @@
     "@types/node": "^12.12.30",
     "@types/react": "^16.9.23",
     "@types/react-dom": "^16.9.5",
+    "react-app-polyfill": "^1.0.4",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0",
@@ -26,11 +27,13 @@
   },
   "browserslist": {
     "production": [
+      "IE 11",
       ">0.2%",
       "not dead",
       "not op_mini all"
     ],
     "development": [
+      "IE 11",
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
