@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { ComboBox, ComboBoxPopup, ComboBoxOption, ComboBoxInput, ComboBoxList, ComboBoxButton } from 'jfront-components';
 
 function App() {
   return (
@@ -18,6 +19,20 @@ function App() {
         >
           Learn React
         </a>
+
+        <ComboBox name="test" openOnFocus width='250px'>
+          <ComboBoxInput />
+          <ComboBoxButton />
+          <ComboBoxPopup>
+            <ComboBoxList>
+              <ComboBoxOption name="Native" value="native" />
+              <ComboBoxOption name="WEB application" value="web" />
+              <ComboBoxOption name="Browser (client-side) application" value="browser" />
+              <ComboBoxOption name="Service" value="service" />
+            </ComboBoxList>
+          </ComboBoxPopup>
+        </ComboBox>
+          
       </header>
     </div>
   );
